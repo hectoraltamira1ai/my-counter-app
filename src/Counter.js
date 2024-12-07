@@ -5,6 +5,8 @@ const Counter = () => {
     const [storedCount, setStoredCount] = useState(null);
     const [result, setResult] = useState(null);
 
+    
+    /*This is the snippet responsible for the click sound */
     const playSound = () => {
         const audio = new Audio('click-sound.mp3');
         audio.play();

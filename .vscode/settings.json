@@ -1,0 +1,5 @@
+{
+    "spec-coder.chatAiAssistantProvider": "OpenAI",
+    "spec-coder.codeAiAssistantProvider": "OpenAI",
+    "spec-coder.openaiApiKey": ""
+}
