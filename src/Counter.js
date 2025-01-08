@@ -46,7 +46,7 @@ const Counter = () => {
         // useEffect to log the count whenever it changes
         useEffect(() => {
             console.log(`Current count: ${count}`);
-        }, [count]); // Dependency array includes count
+        }, [count]); // Dependency array includes count.
 
 return (
     <div>
